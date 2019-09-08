@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\kille\Desktop\CSC 343\Lab 1\Part 3\simulation\qsim
+vChen_Kevin_Multiplexer
+Z1 IAcQHlQjmgCY9dChhjRJOm0
+Z2 V@gnHB:d7ghTKzzbIWZ3QX3
+Z3 dC:\Users\kille\Desktop\Chen_Kevin\Lab_1\Chen_Kevin_Part 3\simulation\qsim
+Z4 w1550707116
+Z5 8Chen_Kevin_Lab1Part3.vo
+Z6 FChen_Kevin_Lab1Part3.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Chen_Kevin_Lab1Part3.vo|
+Z9 o-work work -O0
+Z10 n@chen_@kevin_@multiplexer
+Z11 !s100 GnoR<C`4D192h[XXY3J:L1
+Z12 !s108 1550707118.257000
+Z13 !s107 Chen_Kevin_Lab1Part3.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_Multiplexer_vlg_vec_tst
+Z14 IFQKV:eDlfNV>W>fW^D9Pn3
+Z15 V21M]hKnIVVIEmI8MaVLlb1
+R3
+Z16 w1550707115
+Z17 8Chen_Kevin_Lab1Part3.vt
+Z18 FChen_Kevin_Lab1Part3.vt
+L0 29
+R7
+r1
+31
+Z19 !s90 -work|work|Chen_Kevin_Lab1Part3.vt|
+R9
+Z20 n@chen_@kevin_@multiplexer_vlg_vec_tst
+Z21 !s100 fOFzYUPWShn;IjLb>>SQ<0
+Z22 !s108 1550707118.429000
+Z23 !s107 Chen_Kevin_Lab1Part3.vt|
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_MuxLPM
+Z24 I1h`jHo_E]2C>PZeKK@9];3
+Z25 V3Ci91Kd30>T3_<Q<J<OM<1
+Z26 dC:\Users\kille\Desktop\Chen_Kevin\Lab 1\Part 3\simulation\qsim
+Z27 w1550776532
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z28 n@chen_@kevin_@mux@l@p@m
+!i10b 1
+Z29 !s100 E=4QIz=[OCdBH7FKBhgV]2
+!s85 0
+Z30 !s108 1550776533.651000
+R13
+!s101 -O0
+vChen_Kevin_MuxLPM_vlg_check_tst
+!i10b 1
+Z31 !s100 <LL2m4SoUa8@8]C_bQ[2c3
+Z32 I`VPFh9=JV55QmRR]H_UPB0
+Z33 VKSQc3ijenRMeci;Ed9e390
+R26
+Z34 w1550776531
+R17
+R18
+L0 61
+R7
+r1
+!s85 0
+31
+Z35 !s108 1550776533.760000
+Z36 !s107 Chen_Kevin_Lab1Part3.vt|
+R19
+!s101 -O0
+R9
+Z37 n@chen_@kevin_@mux@l@p@m_vlg_check_tst
+vChen_Kevin_MuxLPM_vlg_sample_tst
+!i10b 1
+Z38 !s100 7D7[3HdZa63eY:3dn0Elm3
+Z39 IA5[MJo>58U8NP91z_?cXn1
+Z40 VdcEVIR]1[miVMGmb>S7RC0
+R26
+R34
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R35
+R36
+R19
+!s101 -O0
+R9
+Z41 n@chen_@kevin_@mux@l@p@m_vlg_sample_tst
+vChen_Kevin_MuxLPM_vlg_vec_tst
+!i10b 1
+Z42 !s100 <Kl50b@e?f8PDg@h]93Vd1
+Z43 IM4WBhKFN[`GD;bddjm[[n3
+Z44 V[DndVBSbcUYE>I=9gL<@g0
+R26
+R34
+R17
+R18
+Z45 L0 156
+R7
+r1
+!s85 0
+31
+R35
+R36
+R19
+!s101 -O0
+R9
+Z46 n@chen_@kevin_@mux@l@p@m_vlg_vec_tst

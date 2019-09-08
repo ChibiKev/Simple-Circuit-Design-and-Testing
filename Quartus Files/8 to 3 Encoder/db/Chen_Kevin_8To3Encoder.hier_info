@@ -1,0 +1,19 @@
+|Chen_Kevin_8T3Encoder
+Chen_Kevin_I1 => ~NO_FANOUT~
+Chen_Kevin_I2 => Chen_Kevin_O1.IN0
+Chen_Kevin_I3 => Chen_Kevin_O2.IN0
+Chen_Kevin_I4 => Chen_Kevin_O1.IN1
+Chen_Kevin_I4 => Chen_Kevin_O2.IN1
+Chen_Kevin_I5 => Chen_Kevin_O3.IN0
+Chen_Kevin_I6 => Chen_Kevin_O1.IN1
+Chen_Kevin_I6 => Chen_Kevin_O3.IN1
+Chen_Kevin_I7 => Chen_Kevin_O2.IN1
+Chen_Kevin_I7 => Chen_Kevin_O3.IN1
+Chen_Kevin_I8 => Chen_Kevin_O1.IN1
+Chen_Kevin_I8 => Chen_Kevin_O2.IN1
+Chen_Kevin_I8 => Chen_Kevin_O3.IN1
+Chen_Kevin_O1 <= Chen_Kevin_O1.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_O2 <= Chen_Kevin_O2.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_O3 <= Chen_Kevin_O3.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,96 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\kille\Desktop\Altera
+Echen_kevin_8t3encoder
+Z0 w1550712498
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\kille\Desktop\Chen_Kevin\Lab 1\8 to 3 Encoder
+Z4 8C:/Users/kille/Desktop/Chen_Kevin/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder.vhd
+Z5 FC:/Users/kille/Desktop/Chen_Kevin/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder.vhd
+l0
+L4
+Vc=M[APFE=Xg[[A8edod]^1
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1550779491.706000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/Chen_Kevin/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder.vhd|
+Z9 !s107 C:/Users/kille/Desktop/Chen_Kevin/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 LdHX3kfT0c5=oce8kl96k2
+!i10b 1
+Achen_kevin_arch
+R1
+R2
+Z12 DEx4 work 21 chen_kevin_8t3encoder 0 22 c=M[APFE=Xg[[A8edod]^1
+l11
+L10
+V81QDH5:edfLF@]nG1=]G<2
+!s100 gM6zjONi0hPjNh4jC_P5F2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+Achen_kevin_i1rch
+R1
+R2
+R12
+l11
+L10
+VMKXn^kC4<<liX98K9XjzX2
+R6
+32
+R10
+R11
+Z13 dC:\Users\kille\Desktop\CSC 343\Lab 1\8 to 3 Encoder
+FC:/Users/kille/Desktop/CSC 343/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder.vhd
+w1550446184
+8C:/Users/kille/Desktop/CSC 343/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder.vhd
+!s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/CSC 343/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder.vhd|
+!s107 C:/Users/kille/Desktop/CSC 343/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder.vhd|
+!s108 1550462897.965000
+!s100 mLbeY>W^148eQO?DPAA``3
+!i10b 1
+Echen_kevin_8t3encoder_tb
+Z14 w1550459859
+R1
+R2
+R3
+Z15 8C:/Users/kille/Desktop/Chen_Kevin/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder_tb.vhd
+Z16 FC:/Users/kille/Desktop/Chen_Kevin/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder_tb.vhd
+l0
+L5
+V?M1?@DiboY?8cCai_fOlF2
+!s100 ZDImHbB;O;_?:Qm6dE=W53
+R6
+32
+!i10b 1
+Z17 !s108 1550779491.833000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/Chen_Kevin/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder_tb.vhd|
+Z19 !s107 C:/Users/kille/Desktop/Chen_Kevin/Lab 1/8 to 3 Encoder/Chen_Kevin_8T3Encoder_tb.vhd|
+R10
+R11
+Achen_kevin_tb
+R12
+R1
+R2
+Z20 DEx4 work 24 chen_kevin_8t3encoder_tb 0 22 ?M1?@DiboY?8cCai_fOlF2
+l11
+L8
+Z21 VI2`d5cUSZMkkz]P_OOFj61
+Z22 !s100 U_T`L4P^jEF79U=eHOHfa3
+R6
+32
+!i10b 1
+R17
+R18
+R19
+R10
+R11

@@ -1,0 +1,26 @@
+|Chen_Kevin_3To8Decoder
+Chen_Kevin_O1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_I3 => inst2.IN0
+Chen_Kevin_I3 => inst7.IN0
+Chen_Kevin_I3 => inst8.IN0
+Chen_Kevin_I3 => inst9.IN0
+Chen_Kevin_I3 => inst10.IN0
+Chen_Kevin_I2 => inst1.IN0
+Chen_Kevin_I2 => inst5.IN1
+Chen_Kevin_I2 => inst6.IN1
+Chen_Kevin_I2 => inst9.IN1
+Chen_Kevin_I2 => inst10.IN1
+Chen_Kevin_I1 => inst.IN0
+Chen_Kevin_I1 => inst4.IN2
+Chen_Kevin_I1 => inst6.IN2
+Chen_Kevin_I1 => inst8.IN2
+Chen_Kevin_I1 => inst10.IN2
+Chen_Kevin_O2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_O3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_O4 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_O5 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_O6 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_O7 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_O8 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+

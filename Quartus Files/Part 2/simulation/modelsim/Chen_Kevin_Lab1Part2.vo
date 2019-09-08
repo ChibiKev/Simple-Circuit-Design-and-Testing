@@ -1,0 +1,226 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "02/21/2019 14:12:16"
+
+// 
+// Device: Altera EP2C35F672C6 Package FBGA672
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Chen_Kevin_Mux2to1 (
+	Chen_Kevin_M,
+	Chen_Kevin_S,
+	Chen_Kevin_Y,
+	Chen_Kevin_X);
+output 	Chen_Kevin_M;
+input 	Chen_Kevin_S;
+input 	Chen_Kevin_Y;
+input 	Chen_Kevin_X;
+
+// Design Ports Information
+// Chen_Kevin_M	=>  Location: PIN_AE23,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// Chen_Kevin_Y	=>  Location: PIN_N26,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+// Chen_Kevin_X	=>  Location: PIN_N25,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+// Chen_Kevin_S	=>  Location: PIN_P25,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \Chen_Kevin_Y~combout ;
+wire \Chen_Kevin_X~combout ;
+wire \Chen_Kevin_S~combout ;
+wire \inst2~0_combout ;
+
+
+// Location: PIN_N26,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+cycloneii_io \Chen_Kevin_Y~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\Chen_Kevin_Y~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(Chen_Kevin_Y));
+// synopsys translate_off
+defparam \Chen_Kevin_Y~I .input_async_reset = "none";
+defparam \Chen_Kevin_Y~I .input_power_up = "low";
+defparam \Chen_Kevin_Y~I .input_register_mode = "none";
+defparam \Chen_Kevin_Y~I .input_sync_reset = "none";
+defparam \Chen_Kevin_Y~I .oe_async_reset = "none";
+defparam \Chen_Kevin_Y~I .oe_power_up = "low";
+defparam \Chen_Kevin_Y~I .oe_register_mode = "none";
+defparam \Chen_Kevin_Y~I .oe_sync_reset = "none";
+defparam \Chen_Kevin_Y~I .operation_mode = "input";
+defparam \Chen_Kevin_Y~I .output_async_reset = "none";
+defparam \Chen_Kevin_Y~I .output_power_up = "low";
+defparam \Chen_Kevin_Y~I .output_register_mode = "none";
+defparam \Chen_Kevin_Y~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_N25,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+cycloneii_io \Chen_Kevin_X~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\Chen_Kevin_X~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(Chen_Kevin_X));
+// synopsys translate_off
+defparam \Chen_Kevin_X~I .input_async_reset = "none";
+defparam \Chen_Kevin_X~I .input_power_up = "low";
+defparam \Chen_Kevin_X~I .input_register_mode = "none";
+defparam \Chen_Kevin_X~I .input_sync_reset = "none";
+defparam \Chen_Kevin_X~I .oe_async_reset = "none";
+defparam \Chen_Kevin_X~I .oe_power_up = "low";
+defparam \Chen_Kevin_X~I .oe_register_mode = "none";
+defparam \Chen_Kevin_X~I .oe_sync_reset = "none";
+defparam \Chen_Kevin_X~I .operation_mode = "input";
+defparam \Chen_Kevin_X~I .output_async_reset = "none";
+defparam \Chen_Kevin_X~I .output_power_up = "low";
+defparam \Chen_Kevin_X~I .output_register_mode = "none";
+defparam \Chen_Kevin_X~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_P25,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+cycloneii_io \Chen_Kevin_S~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\Chen_Kevin_S~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(Chen_Kevin_S));
+// synopsys translate_off
+defparam \Chen_Kevin_S~I .input_async_reset = "none";
+defparam \Chen_Kevin_S~I .input_power_up = "low";
+defparam \Chen_Kevin_S~I .input_register_mode = "none";
+defparam \Chen_Kevin_S~I .input_sync_reset = "none";
+defparam \Chen_Kevin_S~I .oe_async_reset = "none";
+defparam \Chen_Kevin_S~I .oe_power_up = "low";
+defparam \Chen_Kevin_S~I .oe_register_mode = "none";
+defparam \Chen_Kevin_S~I .oe_sync_reset = "none";
+defparam \Chen_Kevin_S~I .operation_mode = "input";
+defparam \Chen_Kevin_S~I .output_async_reset = "none";
+defparam \Chen_Kevin_S~I .output_power_up = "low";
+defparam \Chen_Kevin_S~I .output_register_mode = "none";
+defparam \Chen_Kevin_S~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: LCCOMB_X64_Y19_N0
+cycloneii_lcell_comb \inst2~0 (
+// Equation(s):
+// \inst2~0_combout  = (\Chen_Kevin_S~combout  & (\Chen_Kevin_Y~combout )) # (!\Chen_Kevin_S~combout  & ((\Chen_Kevin_X~combout )))
+
+	.dataa(\Chen_Kevin_Y~combout ),
+	.datab(vcc),
+	.datac(\Chen_Kevin_X~combout ),
+	.datad(\Chen_Kevin_S~combout ),
+	.cin(gnd),
+	.combout(\inst2~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst2~0 .lut_mask = 16'hAAF0;
+defparam \inst2~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: PIN_AE23,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cycloneii_io \Chen_Kevin_M~I (
+	.datain(\inst2~0_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(Chen_Kevin_M));
+// synopsys translate_off
+defparam \Chen_Kevin_M~I .input_async_reset = "none";
+defparam \Chen_Kevin_M~I .input_power_up = "low";
+defparam \Chen_Kevin_M~I .input_register_mode = "none";
+defparam \Chen_Kevin_M~I .input_sync_reset = "none";
+defparam \Chen_Kevin_M~I .oe_async_reset = "none";
+defparam \Chen_Kevin_M~I .oe_power_up = "low";
+defparam \Chen_Kevin_M~I .oe_register_mode = "none";
+defparam \Chen_Kevin_M~I .oe_sync_reset = "none";
+defparam \Chen_Kevin_M~I .operation_mode = "output";
+defparam \Chen_Kevin_M~I .output_async_reset = "none";
+defparam \Chen_Kevin_M~I .output_power_up = "low";
+defparam \Chen_Kevin_M~I .output_register_mode = "none";
+defparam \Chen_Kevin_M~I .output_sync_reset = "none";
+// synopsys translate_on
+
+endmodule

@@ -1,0 +1,8 @@
+|Chen_Kevin_Mux2to1
+Chen_Kevin_M <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_S => inst1.IN0
+Chen_Kevin_S => inst3.IN0
+Chen_Kevin_Y => inst1.IN1
+Chen_Kevin_X => inst.IN0
+
+

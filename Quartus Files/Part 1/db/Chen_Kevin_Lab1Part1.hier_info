@@ -1,0 +1,7 @@
+|Chen_Kevin_SimpleCircuit
+Chen_Kevin_F <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Chen_Kevin_I1 => inst.IN0
+Chen_Kevin_I1 => inst3.IN0
+Chen_Kevin_I2 => inst.IN1
+
+

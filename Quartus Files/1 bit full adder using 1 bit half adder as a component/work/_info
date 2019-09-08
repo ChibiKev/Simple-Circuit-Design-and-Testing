@@ -1,0 +1,111 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\kille\Desktop\Altera
+Echen_kevin_full_adder
+Z0 w1550445785
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\kille\Desktop\CSC 343\Lab 1\1 bit full adder using 1 bit half adder as a component
+Z4 8C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Full_Adder.vhd
+Z5 FC:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Full_Adder.vhd
+l0
+L4
+V88B;YVg>e@RTW<BPWJgM;0
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1550552633.467000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Full_Adder.vhd|
+Z9 !s107 C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Full_Adder.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 c]CURfW?zhhS0UP;6H4_`0
+!i10b 1
+Achen_kevin_arch
+R1
+R2
+Z12 DEx4 work 21 chen_kevin_full_adder 0 22 88B;YVg>e@RTW<BPWJgM;0
+l21
+L10
+VOTzaFF5mB:OIeQ@=h8TNl3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 AYfVoIdNO3EHEzB[QOKgb2
+!i10b 1
+Echen_kevin_full_adder_tb
+Z13 w1550459951
+R1
+R2
+R3
+Z14 8C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Full_Adder_tb.vhd
+Z15 FC:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Full_Adder_tb.vhd
+l0
+L5
+V=29K7^7dOD8SgMKfWB8?Z3
+R6
+32
+Z16 !s108 1550552633.849000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Full_Adder_tb.vhd|
+Z18 !s107 C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Full_Adder_tb.vhd|
+R10
+R11
+!s100 RNOoGoUQfW9VBkfK6K;Ko3
+!i10b 1
+Achen_kevin_tb
+R12
+R1
+R2
+DEx4 work 24 chen_kevin_full_adder_tb 0 22 =29K7^7dOD8SgMKfWB8?Z3
+l11
+L8
+VG=<zKUKOOQKb]U=@;0B2o3
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 28gUZ>E`m5ENMXFgYIDCF1
+!i10b 1
+Echen_kevin_half_adder
+Z19 w1550361396
+R1
+R2
+R3
+Z20 8C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Half_Adder.vhd
+Z21 FC:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Half_Adder.vhd
+l0
+L4
+VgW<f[QC1]Vd[dcCE2VdoP3
+!s100 _;^DbG6gFVgC@2IAXD4R<3
+R6
+32
+!i10b 1
+Z22 !s108 1550552634.109000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Half_Adder.vhd|
+Z24 !s107 C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit full adder using 1 bit half adder as a component/Chen_Kevin_Half_Adder.vhd|
+R10
+R11
+Achen_kevin_arch
+R1
+R2
+Z25 DEx4 work 21 chen_kevin_half_adder 0 22 gW<f[QC1]Vd[dcCE2VdoP3
+l11
+L10
+Z26 VBh@0G:hlUjEM7VINm@T`D2
+Z27 !s100 R@3Sm1ek>NNd3LG_`RH8R0
+R6
+32
+!i10b 1
+R22
+R23
+R24
+R10
+R11

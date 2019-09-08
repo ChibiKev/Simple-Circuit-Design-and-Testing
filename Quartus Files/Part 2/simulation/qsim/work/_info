@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\kille\Desktop\CSC 343\Lab 1\Part 2\simulation\qsim
+vChen_Kevin_Mux2to1
+Z1 !s100 ?BGF_5GF;kGZianoJQ3NA2
+Z2 I>EDBe@`JIKi_m4f2cn>TV3
+Z3 VfA<PT`IGIhRR;giH`JHjD2
+Z4 dC:\Users\kille\Desktop\Chen_Kevin\Lab 1\Part 2\simulation\qsim
+Z5 w1550776337
+Z6 8Chen_Kevin_Lab1Part2.vo
+Z7 FChen_Kevin_Lab1Part2.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Chen_Kevin_Lab1Part2.vo|
+Z10 o-work work -O0
+Z11 n@chen_@kevin_@mux2to1
+!i10b 1
+!s85 0
+Z12 !s108 1550776339.024000
+Z13 !s107 Chen_Kevin_Lab1Part2.vo|
+!s101 -O0
+vChen_Kevin_Mux2to1_vlg_check_tst
+!i10b 1
+Z14 !s100 K0>?M[H7Hn9MN1MZB5fYo1
+Z15 Ig^V^mLbIKE;D8ZK]R>Uig3
+Z16 VB:X=2>N8_<]DCR__9SZGW3
+R4
+Z17 w1550776336
+Z18 8Chen_Kevin_Lab1Part2.vt
+Z19 FChen_Kevin_Lab1Part2.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1550776339.180000
+Z21 !s107 Chen_Kevin_Lab1Part2.vt|
+Z22 !s90 -work|work|Chen_Kevin_Lab1Part2.vt|
+!s101 -O0
+R10
+Z23 n@chen_@kevin_@mux2to1_vlg_check_tst
+vChen_Kevin_Mux2to1_vlg_sample_tst
+!i10b 1
+Z24 !s100 ?93cm`DjPVBi@oFlGG^]o2
+Z25 IBER@<8bHeo?W0BlB;48zW0
+Z26 VbBd8T2P<7SKAi=LfiG;iO0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@chen_@kevin_@mux2to1_vlg_sample_tst
+vChen_Kevin_Mux2to1_vlg_vec_tst
+!i10b 1
+Z28 !s100 _8d]OzVdGeiDUb6UQLVnT0
+Z29 IMU3WW9On;LG^Zl=nlaUi@2
+Z30 Ve]cN]lfk;KRCL8`O_7EFB1
+R4
+R17
+R18
+R19
+Z31 L0 156
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@chen_@kevin_@mux2to1_vlg_vec_tst

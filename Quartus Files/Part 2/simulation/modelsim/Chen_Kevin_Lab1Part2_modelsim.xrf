@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/kille/Desktop/Chen_Kevin/Lab 1/Part 2/Chen_Kevin_Mux2to1.bdf
+source_file = 1, C:/Users/kille/Desktop/Chen_Kevin/Lab 1/Part 2/Chen_Kevin_Mux2to1Waveform.vwf
+source_file = 1, C:/Users/kille/Desktop/Chen_Kevin/Lab 1/Part 2/db/Chen_Kevin_Lab1Part2.cbx.xml
+design_name = Chen_Kevin_Mux2to1
+instance = comp, \Chen_Kevin_Y~I , Chen_Kevin_Y, Chen_Kevin_Mux2to1, 1
+instance = comp, \Chen_Kevin_X~I , Chen_Kevin_X, Chen_Kevin_Mux2to1, 1
+instance = comp, \Chen_Kevin_S~I , Chen_Kevin_S, Chen_Kevin_Mux2to1, 1
+instance = comp, \inst2~0 , inst2~0, Chen_Kevin_Mux2to1, 1
+instance = comp, \Chen_Kevin_M~I , Chen_Kevin_M, Chen_Kevin_Mux2to1, 1

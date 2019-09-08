@@ -1,0 +1,76 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\kille\Desktop\Altera
+Echen_kevin_half_adder
+Z0 w1550445406
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\kille\Desktop\CSC 343\Lab 1\1 bit half adder
+Z4 8C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit half adder/Chen_Kevin_Half_Adder.vhd
+Z5 FC:/Users/kille/Desktop/CSC 343/Lab 1/1 bit half adder/Chen_Kevin_Half_Adder.vhd
+l0
+L4
+VUnAdO1SY94KN^YS]GT8=o3
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1550551334.575000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit half adder/Chen_Kevin_Half_Adder.vhd|
+Z9 !s107 C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit half adder/Chen_Kevin_Half_Adder.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 oDZI<5nS35FhHnFCnBJTO1
+!i10b 1
+Achen_kevin_arch
+R1
+R2
+Z12 DEx4 work 21 chen_kevin_half_adder 0 22 UnAdO1SY94KN^YS]GT8=o3
+l11
+L10
+VWOd>9CJ5eg><EN7_7UCnc0
+!s100 7FP@DH@YincIL]Clni:m33
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+Echen_kevin_half_adder_tb
+Z13 w1550459997
+R1
+R2
+R3
+Z14 8C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit half adder/Chen_Kevin_Half_Adder_tb.vhd
+Z15 FC:/Users/kille/Desktop/CSC 343/Lab 1/1 bit half adder/Chen_Kevin_Half_Adder_tb.vhd
+l0
+L5
+Vbc3[USe=lE3O=mV2D4B?<0
+!s100 K7b3U5;ili<3f0Q??Q3_30
+R6
+32
+!i10b 1
+Z16 !s108 1550551334.824000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit half adder/Chen_Kevin_Half_Adder_tb.vhd|
+Z18 !s107 C:/Users/kille/Desktop/CSC 343/Lab 1/1 bit half adder/Chen_Kevin_Half_Adder_tb.vhd|
+R10
+R11
+Achen_kevin_tb
+R12
+R1
+R2
+Z19 DEx4 work 24 chen_kevin_half_adder_tb 0 22 bc3[USe=lE3O=mV2D4B?<0
+l11
+L8
+Z20 VG?iL6N8We1LMzjCC5SEc63
+!s100 _nOeMO?LjcbibIM@6A_m_3
+R6
+32
+!i10b 1
+R16
+R17
+R18
+R10
+R11

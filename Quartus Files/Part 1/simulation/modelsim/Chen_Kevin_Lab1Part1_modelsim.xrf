@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/kille/Desktop/CSC 343/Lab 1/Part 1/Chen_Kevin_SimpleCircuit.bdf
+source_file = 1, C:/Users/kille/Desktop/CSC 343/Lab 1/Part 1/Chen_Kevin_SimpleCircuitWaveform.vwf
+source_file = 1, C:/Users/kille/Desktop/CSC 343/Lab 1/Part 1/db/Chen_Kevin_Lab1Part1.cbx.xml
+design_name = Chen_Kevin_SimpleCircuit
+instance = comp, \Chen_Kevin_I1~I , Chen_Kevin_I1, Chen_Kevin_SimpleCircuit, 1
+instance = comp, \Chen_Kevin_I2~I , Chen_Kevin_I2, Chen_Kevin_SimpleCircuit, 1
+instance = comp, \Chen_Kevin_F~I , Chen_Kevin_F, Chen_Kevin_SimpleCircuit, 1

@@ -1,0 +1,245 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\kille\Desktop\CSC 343\Lab 1\1 bit half adder\simulation\qsim
+vChen_Kevin_1BitHalfAdder
+Z1 !s100 DanbMaACN`5a_XC0nkNlk0
+Z2 Id@zA2>GFflee8A]`7@]nk3
+Z3 V6MeN74c;nSoAYII>bg38Y3
+Z4 dC:\Users\kille\Desktop\Chen_Kevin\Lab 1\1 bit half adder\simulation\qsim
+Z5 w1550776848
+Z6 8Chen_Kevin_1BitHalfAdder.vo
+Z7 FChen_Kevin_1BitHalfAdder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Chen_Kevin_1BitHalfAdder.vo|
+Z10 o-work work -O0
+Z11 n@chen_@kevin_1@bit@half@adder
+Z12 !s108 1550776849.192000
+Z13 !s107 Chen_Kevin_1BitHalfAdder.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_1BitHalfAdder_vlg_check_tst
+Z14 !s100 0EPG3B1dM;X2c8Vb4W@gj2
+Z15 I@IG4>KjXYFInz9?a^BiUO0
+Z16 VH5_GfRAQfk=gJcKzLfA760
+R4
+Z17 w1550776847
+Z18 8Chen_Kevin_1BitHalfAdder.vt
+Z19 FChen_Kevin_1BitHalfAdder.vt
+L0 59
+R8
+r1
+31
+Z20 !s108 1550776849.317000
+Z21 !s107 Chen_Kevin_1BitHalfAdder.vt|
+Z22 !s90 -work|work|Chen_Kevin_1BitHalfAdder.vt|
+R10
+Z23 n@chen_@kevin_1@bit@half@adder_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_1BitHalfAdder_vlg_sample_tst
+Z24 !s100 >YISjj[l7EY_GF`?zZ`7S0
+Z25 Ihn2hMjSUL8h9D==;zo:zE1
+Z26 VUEzREGY]`@g`Wjg2l]Ua:2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@chen_@kevin_1@bit@half@adder_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_1BitHalfAdder_vlg_vec_tst
+Z28 !s100 VM4B9V;7cL8`h:@McY_WJ2
+Z29 I;2on_`c0Oa`n_cKT:U0_b0
+Z30 Vn2`7C@0E^>2i:fJzEe08S3
+R4
+R17
+R18
+R19
+Z31 L0 181
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z32 n@chen_@kevin_1@bit@half@adder_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_Half_Adder
+Z33 IMb2Ub8^Cc00@[Bb7jeHhZ3
+Z34 VMPDLFJ<D=c1MM<KS^m3CG2
+R4
+Z35 w1550776794
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z36 n@chen_@kevin_@half_@adder
+Z37 !s100 k<YJ[bZ`mc:>QC;;7E;[o0
+Z38 !s108 1550776795.571000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_Half_Adder_vlg_check_tst
+Z39 IJ4HQZ221OYBDVbKeamU2N2
+Z40 VGAWgcL`doCbkG7Th0[Zm62
+R4
+Z41 w1550776793
+R18
+R19
+L0 59
+R8
+r1
+31
+Z42 !s108 1550776795.696000
+R21
+R22
+R10
+Z43 n@chen_@kevin_@half_@adder_vlg_check_tst
+Z44 !s100 Pi9:oo>O3fYmYXnYeIncX1
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_Half_Adder_vlg_sample_tst
+Z45 Il7:hNSVzh@h?T8?gD`PkB2
+Z46 VNd1mH;O6]a`H9Q0JoJLc?1
+R4
+R41
+R18
+R19
+L0 29
+R8
+r1
+31
+R42
+R21
+R22
+R10
+Z47 n@chen_@kevin_@half_@adder_vlg_sample_tst
+Z48 !s100 UH4LC;R6Ll:?OgaBWD<=71
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_Half_Adder_vlg_vec_tst
+Z49 IAPVg_Pa>cLACB1H3^aBEj1
+Z50 Vha9VZi406okY@a=AOgZM12
+R4
+R41
+R18
+R19
+R31
+R8
+r1
+31
+R42
+R21
+R22
+R10
+Z51 n@chen_@kevin_@half_@adder_vlg_vec_tst
+Z52 !s100 `h>P]0NAg9e4AW=hT1jog0
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_HalfAdderLPM
+Z53 IbCPSGFR@kAgE8R@HfnK=I3
+Z54 Vmhb:N:OmSz8>d_@F_:BNh0
+R4
+Z55 w1550864484
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z56 n@chen_@kevin_@half@adder@l@p@m
+!i10b 1
+Z57 !s100 ZiFMLih>aBbL7_FozhF;Y2
+!s85 0
+Z58 !s108 1550864485.258000
+R13
+!s101 -O0
+vChen_Kevin_HalfAdderLPM_vlg_check_tst
+!i10b 1
+!s100 G4GZm8P_QazznJHM[Cj=`0
+Io4CWUV>o4:6oKdGO14m:J0
+VFen55hB25O4]MTZ3?YR<i3
+R4
+Z59 w1550864483
+R18
+R19
+L0 59
+R8
+r1
+!s85 0
+31
+Z60 !s108 1550864485.384000
+Z61 !s107 Chen_Kevin_1BitHalfAdder.vt|
+R22
+!s101 -O0
+R10
+n@chen_@kevin_@half@adder@l@p@m_vlg_check_tst
+vChen_Kevin_HalfAdderLPM_vlg_sample_tst
+!i10b 1
+!s100 n7h^M>8jI@F5RbEA`35Qj1
+IZdF7:R;A>Ydd1EfVg[2<l3
+Vc;0oCO;E>17IA@jD3=UW81
+R4
+R59
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R60
+R61
+R22
+!s101 -O0
+R10
+n@chen_@kevin_@half@adder@l@p@m_vlg_sample_tst
+vChen_Kevin_HalfAdderLPM_vlg_vec_tst
+!i10b 1
+!s100 EE:>ON]k:hR7`5jhKJim41
+IHNB^W^]^HfHgZZ>gYo=2@0
+VZ:UCd<La;V]S1P=:n@N`]2
+R4
+R59
+R18
+R19
+R31
+R8
+r1
+!s85 0
+31
+R60
+R61
+R22
+!s101 -O0
+R10
+n@chen_@kevin_@half@adder@l@p@m_vlg_vec_tst

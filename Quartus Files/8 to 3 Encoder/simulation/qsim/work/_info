@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\kille\Desktop\CSC 343\Lab 1\8 to 3 Encoder\simulation\qsim
+vChen_Kevin_8T3Encoder
+Z1 !s100 fJ<RbS1:joSB?oOAlNl]i3
+Z2 IQ5h9bfAgBn<NekUf^^1oN0
+Z3 Vzc;8R9=8o@E]IC:RQBL^>1
+Z4 dC:\Users\kille\Desktop\Chen_Kevin\Lab 1\8 to 3 Encoder\simulation\qsim
+Z5 w1550777422
+Z6 8Chen_Kevin_8To3Encoder.vo
+Z7 FChen_Kevin_8To3Encoder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Chen_Kevin_8To3Encoder.vo|
+Z10 o-work work -O0
+Z11 n@chen_@kevin_8@t3@encoder
+!i10b 1
+!s85 0
+Z12 !s108 1550777423.371000
+Z13 !s107 Chen_Kevin_8To3Encoder.vo|
+!s101 -O0
+vChen_Kevin_8T3Encoder_vlg_check_tst
+!i10b 1
+Z14 !s100 dAz1cIU1[80>me?_bn>Y30
+Z15 IIS0_BiWc9zX=;19c^beTl2
+Z16 VnR>D?U@RD[dO4P671A>6J3
+R4
+Z17 w1550777421
+Z18 8Chen_Kevin_8To3Encoder.vt
+Z19 FChen_Kevin_8To3Encoder.vt
+L0 71
+R8
+r1
+!s85 0
+31
+Z20 !s108 1550777423.512000
+Z21 !s107 Chen_Kevin_8To3Encoder.vt|
+Z22 !s90 -work|work|Chen_Kevin_8To3Encoder.vt|
+!s101 -O0
+R10
+Z23 n@chen_@kevin_8@t3@encoder_vlg_check_tst
+vChen_Kevin_8T3Encoder_vlg_sample_tst
+!i10b 1
+Z24 !s100 F;I8;;>:Im;lm360^cMnY0
+Z25 IYoRT5o=b@3HBM9Tz2fh=U0
+Z26 VV_P:@<gk3[CDdCU=?@kJF2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@chen_@kevin_8@t3@encoder_vlg_sample_tst
+vChen_Kevin_8T3Encoder_vlg_vec_tst
+!i10b 1
+Z28 !s100 Bd^ED4VfbgZ<Ml4[JlVf;1
+Z29 IBfXYPVno4RD[H?Hih38dU3
+Z30 V05mc36:nYn7mnC<d9k;_02
+R4
+R17
+R18
+R19
+Z31 L0 220
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@chen_@kevin_8@t3@encoder_vlg_vec_tst
+vChen_Kevin_8To3Encoder
+Z33 I1aW`b6g;3[<gUJ1b7LW]b0
+Z34 V?Q?RBY3=c49867Cel8M3i0
+Z35 dC:\Users\kille\Desktop\CSC 343\Lab_1\Chen_Kevin_8 to 3 Encoder\simulation\qsim
+Z36 w1550713036
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z37 n@chen_@kevin_8@to3@encoder
+Z38 !s100 ]blBzCoKCCgd[QT]ZiHf23
+Z39 !s108 1550713037.187000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_8To3Encoder_vlg_check_tst
+Z40 !s100 df]b@INZlfXTSgJA7@ZKN2
+Z41 IQCGf1h=_TcK^iHn;=Gz6:3
+Z42 VJV;bG<dmEI5NdDP`D?maY3
+R35
+Z43 w1550713035
+R18
+R19
+L0 71
+R8
+r1
+31
+Z44 !s108 1550713037.297000
+Z45 !s107 Chen_Kevin_8To3Encoder.vt|
+R22
+R10
+Z46 n@chen_@kevin_8@to3@encoder_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_8To3Encoder_vlg_sample_tst
+Z47 !s100 @a9fao_aQVjYoDKG^D?fH2
+Z48 I86kLhT]]AdRcmhU4VA8bE2
+Z49 VUz_ZD4>;bmz5eoDg>J=AB3
+R35
+R43
+R18
+R19
+L0 29
+R8
+r1
+31
+R44
+R45
+R22
+R10
+Z50 n@chen_@kevin_8@to3@encoder_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_8To3Encoder_vlg_vec_tst
+Z51 !s100 Zl65ZPh^gZK@CB8[JV3KC2
+Z52 IUPb`oXOU`;734mWdQHGoA0
+Z53 VJYnNjN4@PY[hNooM<0nE51
+R35
+R43
+R18
+R19
+R31
+R8
+r1
+31
+R44
+R45
+R22
+R10
+Z54 n@chen_@kevin_8@to3@encoder_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0

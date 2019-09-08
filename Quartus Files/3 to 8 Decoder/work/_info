@@ -1,0 +1,93 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\kille\Desktop\Altera
+Echen_kevin_3t8decoder
+Z0 w1550459474
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\kille\Desktop\CSC 343\Lab 1\3 to 8 Decoder
+Z4 8C:/Users/kille/Desktop/CSC 343/Lab 1/3 to 8 Decoder/Chen_Kevin_3T8Decoder.vhd
+Z5 FC:/Users/kille/Desktop/CSC 343/Lab 1/3 to 8 Decoder/Chen_Kevin_3T8Decoder.vhd
+l0
+L4
+Vk_<3X9E073R1nBj4?:KGf3
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1550554984.462000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/CSC 343/Lab 1/3 to 8 Decoder/Chen_Kevin_3T8Decoder.vhd|
+Z9 !s107 C:/Users/kille/Desktop/CSC 343/Lab 1/3 to 8 Decoder/Chen_Kevin_3T8Decoder.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 :^SE2deo0i=6=j?XW`X<W0
+!i10b 1
+Achen_kevin_arch
+R1
+R2
+Z12 DEx4 work 21 chen_kevin_3t8decoder 0 22 k_<3X9E073R1nBj4?:KGf3
+l11
+L10
+V5i57Ok=nnh89RICkMIUio2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 0W1CEO6]jP<;WI<:T<?hk1
+!i10b 1
+Achen_kevin_i1rch
+R1
+R2
+R12
+l11
+L10
+VO;G7doS[Sz9dJYKAkJ_bY0
+R6
+32
+R8
+R9
+R10
+R11
+w1550445944
+!s108 1550447225.920000
+!s100 :;10CiF8TK@4I1EfJR^FC1
+!i10b 1
+Echen_kevin_3t8decoder_tb
+Z13 w1550459630
+R1
+R2
+R3
+Z14 8C:/Users/kille/Desktop/CSC 343/Lab 1/3 to 8 Decoder/Chen_Kevin_3T8Decoder_tb.vhd
+Z15 FC:/Users/kille/Desktop/CSC 343/Lab 1/3 to 8 Decoder/Chen_Kevin_3T8Decoder_tb.vhd
+l0
+L5
+VPjMYaW`30z[KQ]bQMDY`20
+!s100 >Oe[o2]:V]Wh64KAncPRi2
+R6
+32
+!i10b 1
+Z16 !s108 1550554984.734000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/kille/Desktop/CSC 343/Lab 1/3 to 8 Decoder/Chen_Kevin_3T8Decoder_tb.vhd|
+Z18 !s107 C:/Users/kille/Desktop/CSC 343/Lab 1/3 to 8 Decoder/Chen_Kevin_3T8Decoder_tb.vhd|
+R10
+R11
+Achen_kevin_tb
+R12
+R1
+R2
+Z19 DEx4 work 24 chen_kevin_3t8decoder_tb 0 22 PjMYaW`30z[KQ]bQMDY`20
+l11
+L8
+Z20 V75l:ccc123aGWf4mEa[>m1
+!s100 ]S?3R]<@5O?J2K4I@UW?I3
+R6
+32
+!i10b 1
+R16
+R17
+R18
+R10
+R11

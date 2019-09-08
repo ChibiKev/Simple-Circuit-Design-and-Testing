@@ -1,0 +1,54 @@
+2-to-1 Multiplexer
+
+Variable Name	Variable Type	Signal Name	FPGA Pin No.
+Chen_Kevin_S	Input		SW[2]		PIN_P25
+Chen_Kevin_X	Input		SW[0]		PIN_N25
+Chen_Kevin_Y	Input		SW[1]		PIN_N26
+Chen_Kevin_M	Output		LEDR[0]		PIN_AE23
+
+1-bit Half Adder
+
+Variable Name	Variable Type	Signal Name	FPGA Pin No.
+Chen_Kevin_I1	Input		SW[0]		PIN_N25
+Chen_Kevin_I2	Input		SW[1]		PIN_N26
+Chen_Kevin_S	Output		LEDR[0]		PIN_AE23
+Chen_Kevin_C	Output		LEDR[1]		PIN_AF23
+
+1-bit Full Adder
+
+Variable Name	Variable Type	Signal Name	FPGA Pin No.
+Chen_Kevin_I1	Input		SW[0]		PIN_N25
+Chen_Kevin_I2	Input		SW[1]		PIN_N26
+Chen_Kevin_Cin	Input		SW[2]		PIN_P25
+Chen_Kevin_S	Output		LEDR[0]		PIN_AE23
+Chen_Kevin_Cout	Output		LEDR[1]		PIN_AF23
+
+3-to-8 Decoder
+
+Variable Name	Variable Type	Signal Name	FPGA Pin No.
+Chen_Kevin_I1	Input		SW[0]		PIN_N25
+Chen_Kevin_I2	Input		SW[1]		PIN_N26
+Chen_Kevin_I3	Input		SW[2]		PIN_P25
+Chen_Kevin_O1	Output		LEDR[0]		PIN_AE23
+Chen_Kevin_O2	Output		LEDR[1]		PIN_AF23
+Chen_Kevin_O3	Output		LEDR[2]		PIN_AB21
+Chen_Kevin_O4	Output		LEDR[3]		PIN_AC22
+Chen_Kevin_O5	Output		LEDR[4]		PIN_AD22
+Chen_Kevin_O6	Output		LEDR[5]		PIN_AD23
+Chen_Kevin_O7	Output		LEDR[6]		PIN_AD21
+Chen_Kevin_O8	Output		LEDR[7]		PIN_AC21
+
+8-to-3 Encoder
+
+Variable Name	Variable Type	Signal Name	FPGA Pin No.
+Chen_Kevin_I1	Input		SW[0]		PIN_N25
+Chen_Kevin_I2	Input		SW[1]		PIN_N26
+Chen_Kevin_I3	Input		SW[2]		PIN_P25
+Chen_Kevin_I4	Input		SW[3]		PIN_AE14
+Chen_Kevin_I5	Input		SW[4]		PIN_AF14
+Chen_Kevin_I6	Input		SW[5]		PIN_AD13
+Chen_Kevin_I7	Input		SW[6]		PIN_AC13
+Chen_Kevin_I8	Input		SW[7]		PIN_C13
+Chen_Kevin_O1	Output		LEDR[0]		PIN_AE23
+Chen_Kevin_O2	Output		LEDR[1]		PIN_AF23
+Chen_Kevin_O3	Output		LEDR[2]		PIN_AB21

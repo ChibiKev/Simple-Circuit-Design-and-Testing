@@ -1,0 +1,243 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 8 96 184 112)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "Chen_Kevin_I1" (rect 5 0 80 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -48 112 8 128))
+)
+(pin
+	(input)
+	(rect 8 112 184 128)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "Chen_Kevin_I2" (rect 5 0 80 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -48 128 8 144))
+)
+(pin
+	(input)
+	(rect 8 216 184 232)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "Chen_Kevin_Cin" (rect 5 0 87 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -48 232 8 248))
+)
+(pin
+	(output)
+	(rect 760 200 936 216)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Chen_Kevin_S" (rect 90 0 163 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 936 216 1000 232))
+)
+(pin
+	(output)
+	(rect 760 272 945 288)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Chen_Kevin_Cout" (rect 90 0 179 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 945 288 1009 304))
+)
+(symbol
+	(rect 680 256 744 304)
+	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
+	(text "inst4" (rect 3 37 26 49)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 15 32))
+	)
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 15 16))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 48 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 14 36)(pt 25 36))
+		(line (pt 14 13)(pt 25 13))
+		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
+		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
+		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
+	)
+)
+(symbol
+	(rect 184 72 424 152)
+	(text "Chen_Kevin_Half_Adder" (rect 5 0 126 12)(font "Arial" ))
+	(text "inst" (rect 8 64 25 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Chen_Kevin_a" (rect 0 0 71 12)(font "Arial" ))
+		(text "Chen_Kevin_a" (rect 21 27 92 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Chen_Kevin_b" (rect 0 0 71 12)(font "Arial" ))
+		(text "Chen_Kevin_b" (rect 21 43 92 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "Chen_Kevin_sum" (rect 0 0 87 12)(font "Arial" ))
+		(text "Chen_Kevin_sum" (rect 146 27 233 39)(font "Arial" ))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "Chen_Kevin_carry" (rect 0 0 92 12)(font "Arial" ))
+		(text "Chen_Kevin_carry" (rect 142 43 234 55)(font "Arial" ))
+		(line (pt 240 48)(pt 224 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 64))
+	)
+)
+(symbol
+	(rect 440 176 680 256)
+	(text "Chen_Kevin_Half_Adder" (rect 5 0 126 12)(font "Arial" ))
+	(text "inst1" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Chen_Kevin_a" (rect 0 0 71 12)(font "Arial" ))
+		(text "Chen_Kevin_a" (rect 21 27 92 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Chen_Kevin_b" (rect 0 0 71 12)(font "Arial" ))
+		(text "Chen_Kevin_b" (rect 21 43 92 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "Chen_Kevin_sum" (rect 0 0 87 12)(font "Arial" ))
+		(text "Chen_Kevin_sum" (rect 146 27 233 39)(font "Arial" ))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "Chen_Kevin_carry" (rect 0 0 92 12)(font "Arial" ))
+		(text "Chen_Kevin_carry" (rect 142 43 234 55)(font "Arial" ))
+		(line (pt 240 48)(pt 224 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 64))
+	)
+)
+(connector
+	(pt 184 224)
+	(pt 440 224)
+)
+(connector
+	(pt 440 104)
+	(pt 440 208)
+)
+(connector
+	(pt 424 104)
+	(pt 440 104)
+)
+(connector
+	(pt 744 280)
+	(pt 760 280)
+)
+(connector
+	(pt 424 288)
+	(pt 680 288)
+)
+(connector
+	(pt 424 120)
+	(pt 424 288)
+)
+(connector
+	(pt 680 224)
+	(pt 680 272)
+)
+(connector
+	(pt 680 208)
+	(pt 760 208)
+)

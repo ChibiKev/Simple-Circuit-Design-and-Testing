@@ -1,0 +1,422 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/01/2019 16:29:06"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    Chen_Kevin_3To8Decoder
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Chen_Kevin_3To8Decoder_vlg_sample_tst(
+	Chen_Kevin_I1,
+	Chen_Kevin_I2,
+	Chen_Kevin_I3,
+	sampler_tx
+);
+input  Chen_Kevin_I1;
+input  Chen_Kevin_I2;
+input  Chen_Kevin_I3;
+output sampler_tx;
+
+reg sample;
+time current_time;
+always @(Chen_Kevin_I1 or Chen_Kevin_I2 or Chen_Kevin_I3)
+                                                                                
+begin                                                 
+ if ($realtime > 0)                                   
+ begin                                                
+	if ($realtime == 0 || $realtime != current_time)  
+	begin									          
+		if (sample === 1'bx)                          
+			sample = 0;                               
+		else                                          
+			sample = ~sample;                         
+	end										          
+	current_time = $realtime;					      
+ end                                                  
+end                                                   
+
+assign sampler_tx = sample;
+endmodule
+
+module Chen_Kevin_3To8Decoder_vlg_check_tst (
+	Chen_Kevin_O1,
+	Chen_Kevin_O2,
+	Chen_Kevin_O3,
+	Chen_Kevin_O4,
+	Chen_Kevin_O5,
+	Chen_Kevin_O6,
+	Chen_Kevin_O7,
+	Chen_Kevin_O8,
+	sampler_rx
+);
+input  Chen_Kevin_O1;
+input  Chen_Kevin_O2;
+input  Chen_Kevin_O3;
+input  Chen_Kevin_O4;
+input  Chen_Kevin_O5;
+input  Chen_Kevin_O6;
+input  Chen_Kevin_O7;
+input  Chen_Kevin_O8;
+input sampler_rx;
+
+reg  Chen_Kevin_O1_expected;
+reg  Chen_Kevin_O2_expected;
+reg  Chen_Kevin_O3_expected;
+reg  Chen_Kevin_O4_expected;
+reg  Chen_Kevin_O5_expected;
+reg  Chen_Kevin_O6_expected;
+reg  Chen_Kevin_O7_expected;
+reg  Chen_Kevin_O8_expected;
+
+reg  Chen_Kevin_O1_prev;
+reg  Chen_Kevin_O2_prev;
+reg  Chen_Kevin_O3_prev;
+reg  Chen_Kevin_O4_prev;
+reg  Chen_Kevin_O5_prev;
+reg  Chen_Kevin_O6_prev;
+reg  Chen_Kevin_O7_prev;
+reg  Chen_Kevin_O8_prev;
+
+reg  Chen_Kevin_O1_expected_prev;
+reg  Chen_Kevin_O2_expected_prev;
+reg  Chen_Kevin_O3_expected_prev;
+reg  Chen_Kevin_O4_expected_prev;
+reg  Chen_Kevin_O5_expected_prev;
+reg  Chen_Kevin_O6_expected_prev;
+reg  Chen_Kevin_O7_expected_prev;
+reg  Chen_Kevin_O8_expected_prev;
+
+reg  last_Chen_Kevin_O1_exp;
+reg  last_Chen_Kevin_O2_exp;
+reg  last_Chen_Kevin_O3_exp;
+reg  last_Chen_Kevin_O4_exp;
+reg  last_Chen_Kevin_O5_exp;
+reg  last_Chen_Kevin_O6_exp;
+reg  last_Chen_Kevin_O7_exp;
+reg  last_Chen_Kevin_O8_exp;
+
+reg trigger;
+
+integer i;
+integer nummismatches;
+
+reg [1:8] on_first_change ;
+
+
+initial
+begin
+trigger = 0;
+i = 0;
+nummismatches = 0;
+on_first_change = 8'b1;
+end
+
+// update real /o prevs
+
+always @(trigger)
+begin
+	Chen_Kevin_O1_prev = Chen_Kevin_O1;
+	Chen_Kevin_O2_prev = Chen_Kevin_O2;
+	Chen_Kevin_O3_prev = Chen_Kevin_O3;
+	Chen_Kevin_O4_prev = Chen_Kevin_O4;
+	Chen_Kevin_O5_prev = Chen_Kevin_O5;
+	Chen_Kevin_O6_prev = Chen_Kevin_O6;
+	Chen_Kevin_O7_prev = Chen_Kevin_O7;
+	Chen_Kevin_O8_prev = Chen_Kevin_O8;
+end
+
+// update expected /o prevs
+
+always @(trigger)
+begin
+	Chen_Kevin_O1_expected_prev = Chen_Kevin_O1_expected;
+	Chen_Kevin_O2_expected_prev = Chen_Kevin_O2_expected;
+	Chen_Kevin_O3_expected_prev = Chen_Kevin_O3_expected;
+	Chen_Kevin_O4_expected_prev = Chen_Kevin_O4_expected;
+	Chen_Kevin_O5_expected_prev = Chen_Kevin_O5_expected;
+	Chen_Kevin_O6_expected_prev = Chen_Kevin_O6_expected;
+	Chen_Kevin_O7_expected_prev = Chen_Kevin_O7_expected;
+	Chen_Kevin_O8_expected_prev = Chen_Kevin_O8_expected;
+end
+
+
+
+// expected Chen_Kevin_O1
+initial
+begin
+	Chen_Kevin_O1_expected = 1'bX;
+end 
+
+// expected Chen_Kevin_O2
+initial
+begin
+	Chen_Kevin_O2_expected = 1'bX;
+end 
+
+// expected Chen_Kevin_O3
+initial
+begin
+	Chen_Kevin_O3_expected = 1'bX;
+end 
+
+// expected Chen_Kevin_O4
+initial
+begin
+	Chen_Kevin_O4_expected = 1'bX;
+end 
+
+// expected Chen_Kevin_O5
+initial
+begin
+	Chen_Kevin_O5_expected = 1'bX;
+end 
+
+// expected Chen_Kevin_O6
+initial
+begin
+	Chen_Kevin_O6_expected = 1'bX;
+end 
+
+// expected Chen_Kevin_O7
+initial
+begin
+	Chen_Kevin_O7_expected = 1'bX;
+end 
+
+// expected Chen_Kevin_O8
+initial
+begin
+	Chen_Kevin_O8_expected = 1'bX;
+end 
+// generate trigger
+always @(Chen_Kevin_O1_expected or Chen_Kevin_O1 or Chen_Kevin_O2_expected or Chen_Kevin_O2 or Chen_Kevin_O3_expected or Chen_Kevin_O3 or Chen_Kevin_O4_expected or Chen_Kevin_O4 or Chen_Kevin_O5_expected or Chen_Kevin_O5 or Chen_Kevin_O6_expected or Chen_Kevin_O6 or Chen_Kevin_O7_expected or Chen_Kevin_O7 or Chen_Kevin_O8_expected or Chen_Kevin_O8)
+begin
+	trigger <= ~trigger;
+end
+
+always @(posedge sampler_rx or negedge sampler_rx)
+begin
+`ifdef debug_tbench
+	$display("Scanning pattern %d @time = %t",i,$realtime );
+	i = i + 1;
+	$display("| expected Chen_Kevin_O1 = %b | expected Chen_Kevin_O2 = %b | expected Chen_Kevin_O3 = %b | expected Chen_Kevin_O4 = %b | expected Chen_Kevin_O5 = %b | expected Chen_Kevin_O6 = %b | expected Chen_Kevin_O7 = %b | expected Chen_Kevin_O8 = %b | ",Chen_Kevin_O1_expected_prev,Chen_Kevin_O2_expected_prev,Chen_Kevin_O3_expected_prev,Chen_Kevin_O4_expected_prev,Chen_Kevin_O5_expected_prev,Chen_Kevin_O6_expected_prev,Chen_Kevin_O7_expected_prev,Chen_Kevin_O8_expected_prev);
+	$display("| real Chen_Kevin_O1 = %b | real Chen_Kevin_O2 = %b | real Chen_Kevin_O3 = %b | real Chen_Kevin_O4 = %b | real Chen_Kevin_O5 = %b | real Chen_Kevin_O6 = %b | real Chen_Kevin_O7 = %b | real Chen_Kevin_O8 = %b | ",Chen_Kevin_O1_prev,Chen_Kevin_O2_prev,Chen_Kevin_O3_prev,Chen_Kevin_O4_prev,Chen_Kevin_O5_prev,Chen_Kevin_O6_prev,Chen_Kevin_O7_prev,Chen_Kevin_O8_prev);
+`endif
+	if (
+		( Chen_Kevin_O1_expected_prev !== 1'bx ) && ( Chen_Kevin_O1_prev !== Chen_Kevin_O1_expected_prev )
+		&& ((Chen_Kevin_O1_expected_prev !== last_Chen_Kevin_O1_exp) ||
+			on_first_change[1])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Chen_Kevin_O1 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Chen_Kevin_O1_expected_prev);
+		$display ("     Real value = %b", Chen_Kevin_O1_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[1] = 1'b0;
+		last_Chen_Kevin_O1_exp = Chen_Kevin_O1_expected_prev;
+	end
+	if (
+		( Chen_Kevin_O2_expected_prev !== 1'bx ) && ( Chen_Kevin_O2_prev !== Chen_Kevin_O2_expected_prev )
+		&& ((Chen_Kevin_O2_expected_prev !== last_Chen_Kevin_O2_exp) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Chen_Kevin_O2 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Chen_Kevin_O2_expected_prev);
+		$display ("     Real value = %b", Chen_Kevin_O2_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_Chen_Kevin_O2_exp = Chen_Kevin_O2_expected_prev;
+	end
+	if (
+		( Chen_Kevin_O3_expected_prev !== 1'bx ) && ( Chen_Kevin_O3_prev !== Chen_Kevin_O3_expected_prev )
+		&& ((Chen_Kevin_O3_expected_prev !== last_Chen_Kevin_O3_exp) ||
+			on_first_change[3])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Chen_Kevin_O3 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Chen_Kevin_O3_expected_prev);
+		$display ("     Real value = %b", Chen_Kevin_O3_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[3] = 1'b0;
+		last_Chen_Kevin_O3_exp = Chen_Kevin_O3_expected_prev;
+	end
+	if (
+		( Chen_Kevin_O4_expected_prev !== 1'bx ) && ( Chen_Kevin_O4_prev !== Chen_Kevin_O4_expected_prev )
+		&& ((Chen_Kevin_O4_expected_prev !== last_Chen_Kevin_O4_exp) ||
+			on_first_change[4])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Chen_Kevin_O4 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Chen_Kevin_O4_expected_prev);
+		$display ("     Real value = %b", Chen_Kevin_O4_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[4] = 1'b0;
+		last_Chen_Kevin_O4_exp = Chen_Kevin_O4_expected_prev;
+	end
+	if (
+		( Chen_Kevin_O5_expected_prev !== 1'bx ) && ( Chen_Kevin_O5_prev !== Chen_Kevin_O5_expected_prev )
+		&& ((Chen_Kevin_O5_expected_prev !== last_Chen_Kevin_O5_exp) ||
+			on_first_change[5])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Chen_Kevin_O5 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Chen_Kevin_O5_expected_prev);
+		$display ("     Real value = %b", Chen_Kevin_O5_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[5] = 1'b0;
+		last_Chen_Kevin_O5_exp = Chen_Kevin_O5_expected_prev;
+	end
+	if (
+		( Chen_Kevin_O6_expected_prev !== 1'bx ) && ( Chen_Kevin_O6_prev !== Chen_Kevin_O6_expected_prev )
+		&& ((Chen_Kevin_O6_expected_prev !== last_Chen_Kevin_O6_exp) ||
+			on_first_change[6])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Chen_Kevin_O6 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Chen_Kevin_O6_expected_prev);
+		$display ("     Real value = %b", Chen_Kevin_O6_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[6] = 1'b0;
+		last_Chen_Kevin_O6_exp = Chen_Kevin_O6_expected_prev;
+	end
+	if (
+		( Chen_Kevin_O7_expected_prev !== 1'bx ) && ( Chen_Kevin_O7_prev !== Chen_Kevin_O7_expected_prev )
+		&& ((Chen_Kevin_O7_expected_prev !== last_Chen_Kevin_O7_exp) ||
+			on_first_change[7])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Chen_Kevin_O7 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Chen_Kevin_O7_expected_prev);
+		$display ("     Real value = %b", Chen_Kevin_O7_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[7] = 1'b0;
+		last_Chen_Kevin_O7_exp = Chen_Kevin_O7_expected_prev;
+	end
+	if (
+		( Chen_Kevin_O8_expected_prev !== 1'bx ) && ( Chen_Kevin_O8_prev !== Chen_Kevin_O8_expected_prev )
+		&& ((Chen_Kevin_O8_expected_prev !== last_Chen_Kevin_O8_exp) ||
+			on_first_change[8])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Chen_Kevin_O8 :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Chen_Kevin_O8_expected_prev);
+		$display ("     Real value = %b", Chen_Kevin_O8_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[8] = 1'b0;
+		last_Chen_Kevin_O8_exp = Chen_Kevin_O8_expected_prev;
+	end
+
+	trigger <= ~trigger;
+end
+initial 
+
+begin 
+$timeformat(-12,3," ps",6);
+#160000;
+if (nummismatches > 0)
+	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
+else
+	$display ("Simulation passed !");
+$finish;
+end 
+endmodule
+
+module Chen_Kevin_3To8Decoder_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg Chen_Kevin_I1;
+reg Chen_Kevin_I2;
+reg Chen_Kevin_I3;
+// wires                                               
+wire Chen_Kevin_O1;
+wire Chen_Kevin_O2;
+wire Chen_Kevin_O3;
+wire Chen_Kevin_O4;
+wire Chen_Kevin_O5;
+wire Chen_Kevin_O6;
+wire Chen_Kevin_O7;
+wire Chen_Kevin_O8;
+
+wire sampler;                             
+
+// assign statements (if any)                          
+Chen_Kevin_3To8Decoder i1 (
+// port map - connection between master ports and signals/registers   
+	.Chen_Kevin_I1(Chen_Kevin_I1),
+	.Chen_Kevin_I2(Chen_Kevin_I2),
+	.Chen_Kevin_I3(Chen_Kevin_I3),
+	.Chen_Kevin_O1(Chen_Kevin_O1),
+	.Chen_Kevin_O2(Chen_Kevin_O2),
+	.Chen_Kevin_O3(Chen_Kevin_O3),
+	.Chen_Kevin_O4(Chen_Kevin_O4),
+	.Chen_Kevin_O5(Chen_Kevin_O5),
+	.Chen_Kevin_O6(Chen_Kevin_O6),
+	.Chen_Kevin_O7(Chen_Kevin_O7),
+	.Chen_Kevin_O8(Chen_Kevin_O8)
+);
+
+// Chen_Kevin_I1
+always
+begin
+	Chen_Kevin_I1 = 1'b0;
+	Chen_Kevin_I1 = #20000 1'b1;
+	#20000;
+end 
+
+// Chen_Kevin_I2
+always
+begin
+	Chen_Kevin_I2 = 1'b0;
+	Chen_Kevin_I2 = #40000 1'b1;
+	#40000;
+end 
+
+// Chen_Kevin_I3
+always
+begin
+	Chen_Kevin_I3 = 1'b0;
+	Chen_Kevin_I3 = #80000 1'b1;
+	#80000;
+end 
+
+Chen_Kevin_3To8Decoder_vlg_sample_tst tb_sample (
+	.Chen_Kevin_I1(Chen_Kevin_I1),
+	.Chen_Kevin_I2(Chen_Kevin_I2),
+	.Chen_Kevin_I3(Chen_Kevin_I3),
+	.sampler_tx(sampler)
+);
+
+Chen_Kevin_3To8Decoder_vlg_check_tst tb_out(
+	.Chen_Kevin_O1(Chen_Kevin_O1),
+	.Chen_Kevin_O2(Chen_Kevin_O2),
+	.Chen_Kevin_O3(Chen_Kevin_O3),
+	.Chen_Kevin_O4(Chen_Kevin_O4),
+	.Chen_Kevin_O5(Chen_Kevin_O5),
+	.Chen_Kevin_O6(Chen_Kevin_O6),
+	.Chen_Kevin_O7(Chen_Kevin_O7),
+	.Chen_Kevin_O8(Chen_Kevin_O8),
+	.sampler_rx(sampler)
+);
+endmodule
+

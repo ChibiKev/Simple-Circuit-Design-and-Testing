@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\kille\Desktop\CSC 343\Lab 1\1 bit full adder using 1 bit half adder as a component\simulation\qsim
+vChen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent
+Z1 !s100 <SLjngMYcRGQG8Z::m>>@3
+Z2 IhVWng<Oc1c:2ghE2fb1>70
+Z3 VRgLXn93cnXbgZ^zQmN6Mf3
+Z4 dC:\Users\kille\Desktop\Chen_Kevin\Lab 1\1 bit full adder using 1 bit half adder as a component\simulation\qsim
+Z5 w1550777015
+Z6 8Chen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vo
+Z7 FChen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Chen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vo|
+Z10 o-work work -O0
+Z11 n@chen_@kevin_1@bit@full@adder@using1@bit@half@adder@as@a@component
+Z12 !s108 1550777016.699000
+Z13 !s107 Chen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent_vlg_check_tst
+Z14 !s100 7_MY2Q`aiElfMZ5SkZkEo1
+Z15 IQN9EeU`ZD:cnTQzk4?2fl2
+Z16 V42Ul>Cj`:P]3Y7g=g7io?0
+R4
+Z17 w1550777014
+Z18 8Chen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vt
+Z19 FChen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vt
+L0 61
+R8
+r1
+31
+Z20 !s108 1550777016.824000
+Z21 !s107 Chen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vt|
+Z22 !s90 -work|work|Chen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vt|
+R10
+Z23 n@chen_@kevin_1@bit@full@adder@using1@bit@half@adder@as@a@component_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent_vlg_sample_tst
+Z24 !s100 ;_kUQmQSg5AQI<E>>UHJ;3
+Z25 IRZEm9A7TjO6;^iMM5hRAh1
+Z26 Vm1SZ3X^3nljTaVfGDBY:?1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@chen_@kevin_1@bit@full@adder@using1@bit@half@adder@as@a@component_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent_vlg_vec_tst
+Z28 !s100 B;dFK=Qkb6L>:WgM11kzf3
+Z29 IhWW[M;T]]3OQIlXOCdeDZ1
+Z30 V?RMJ0YzIX:eDj6hHa_OP<2
+R4
+R17
+R18
+R19
+Z31 L0 183
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z32 n@chen_@kevin_1@bit@full@adder@using1@bit@half@adder@as@a@component_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vChen_Kevin_FullAdderLPM
+Z33 Ig1gnLLi<W`QfmB;A9onzz0
+Z34 VS1BDQWL?06Vk@F1`fjTJh0
+R4
+Z35 w1550866085
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z36 n@chen_@kevin_@full@adder@l@p@m
+!i10b 1
+Z37 !s100 Ce6Wn@[cS4ZCm^B2BZC2L3
+!s85 0
+Z38 !s108 1550866087.037000
+R13
+!s101 -O0
+vChen_Kevin_FullAdderLPM_vlg_check_tst
+!i10b 1
+!s100 SfSH]ZC>Mz?T?aD0Gm=Vb1
+IA:^cLX<jo[VZek^7<6_HA1
+VP_>PM]mG1UDLE`1=;7`<o0
+R4
+Z39 w1550866084
+R18
+R19
+L0 61
+R8
+r1
+!s85 0
+31
+Z40 !s108 1550866087.162000
+Z41 !s107 Chen_Kevin_1BitFullAdderUsing1BitHalfAdderAsAComponent.vt|
+R22
+!s101 -O0
+R10
+n@chen_@kevin_@full@adder@l@p@m_vlg_check_tst
+vChen_Kevin_FullAdderLPM_vlg_sample_tst
+!i10b 1
+!s100 2VJ?9c;_Mb<_^67a7kk0m3
+ISXI=R6TZVEBJM?_R>4Q601
+V=5ld[d?D<a8c@Z?R7RR4h3
+R4
+R39
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R40
+R41
+R22
+!s101 -O0
+R10
+n@chen_@kevin_@full@adder@l@p@m_vlg_sample_tst
+vChen_Kevin_FullAdderLPM_vlg_vec_tst
+!i10b 1
+!s100 dHN2`n]i3VeQcUDoX7m<D1
+I9eM6;dYPZHAXF7_[TgeLg0
+VZddecMYaIa:44YnnM8?3;0
+R4
+R39
+R18
+R19
+R31
+R8
+r1
+!s85 0
+31
+R40
+R41
+R22
+!s101 -O0
+R10
+n@chen_@kevin_@full@adder@l@p@m_vlg_vec_tst
